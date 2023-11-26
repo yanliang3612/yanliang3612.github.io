@@ -1,13 +1,13 @@
-title: Blog of Paper Note 
-email: yanliangfdu@gmail.com
-description: >- # 这是您网站的描述
+title: Blog of Paper Note # The title of your blog
+email: yanliangfdu@gmail.com # Your email address
+description: >- # A description of your website
   This is my personal blog where I write about my research.
-baseurl: "" # 站点的基础路径，如果您的网站地址直接是 username.github.io 则可以保留为空
-url: "http://username.github.io" # 您的 GitHub Pages 网址
+baseurl: "" # The base path of your site. If your site's address is directly at username.github.io, you can leave this empty
+url: "http://yanliang3612.github.io" # The URL of your GitHub Pages site
 
-# 构建设置
-markdown: kramdown
-theme: minima # 或者您想要的任何其他主题
+# Build settings
+markdown: kramdown # The Markdown engine used for converting markdown files
+theme: minima # The theme for your site. Replace "minima" with any other theme you might want to use
 plugins:
-  - jekyll-feed
+  - jekyll-feed # Plugins you want to use. jekyll-feed generates an RSS feed for your posts
 
