@@ -1,3 +1,11 @@
+---
+title: "论文笔记之Learning Harmonic Molecular Representations on Riemannian Manifold(1/2)"
+date: 2023-11-15 
+categories: [AI for Science] 
+tags: [Molecular Representation Learning] 
+layout: post 
+---
+
 # 论文笔记之Learning Harmonic Molecular Representations on Riemannian Manifold
 
 **Authors:** Yiqun Wang, Yuning Shen, Shi Chen, Lihao Wang, Fei Ye, Hao Zhou  
