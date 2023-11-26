@@ -10,4 +10,7 @@ markdown: kramdown # The Markdown engine used for converting markdown files
 theme: minima # The theme for your site. Replace "minima" with any other theme you might want to use
 plugins:
   - jekyll-feed # Plugins you want to use. jekyll-feed generates an RSS feed for your posts
-
+  
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
