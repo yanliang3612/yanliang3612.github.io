@@ -233,14 +233,19 @@ if (!doNotTrack) {
 
 <style>
   .My-Research-links a {
-    margin-right: 15px; /* 调整链接之间的间距 */
     text-decoration: none; /* 去掉下划线 */
-    color: orange; /* 设置字体颜色为橘色 */
+    color: #1E90FF; /* 设置字体颜色为蓝色 */
+    margin: 0 10px; /* 调整链接之间的间距 */
   }
   .My-Research-links a:hover {
     text-decoration: underline; /* 鼠标悬停时显示下划线 */
   }
+  .My-Research-links span {
+    color: #1E90FF; /* 竖线颜色与链接颜色一致 */
+    margin: 0 5px; /* 调整竖线与链接的间距 */
+  }
 </style>
+
 
 <header class="page-header">
   <h1>My Research</h1>
@@ -253,9 +258,9 @@ if (!doNotTrack) {
   <div class="My Research-entry">
     <h3 class="My Research-entry-title">Theoretical Analysis of Diffusion Models Under Class Imbalance</h3>
     <div class="My-Research-links">
-      <a href="http://arxiv.org/abs/1234.56789">Arxiv</a>
-      <a href="http://example.com/poster">Poster</a>
-      <a href="http://example.com/project">Project Page</a>
+      <a href="http://arxiv.org/abs/1234.56789">Arxiv</a><span>|</span>
+      <a href="http://example.com/poster">Poster</a><span>|</span>
+      <a href="http://example.com/project">Project Page</a><span>|</span>
       <a href="http://github.com/example/code">Code</a>
     </div>
   </div>
