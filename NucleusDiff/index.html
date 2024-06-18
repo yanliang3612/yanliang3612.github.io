@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>NucleusDiff</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/png" href="img/seal_icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    
+    <script src="js/app.js"></script>
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true
+          }
+        });
+      </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                Manifold-Constrained Nucleus-Level Denoising Diffusion Model for Structure-Based Drug Design<br>
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://chao1224.github.io/">Shengchao Liu<sup>1,2 &spades;</sup></a>
+                    </li>
+                    <li>
+                        <a href="https://yanliang3612.github.io/">Divin Yan <sup>1 &spades;</sup></a>
+                    </li>
+                    <li>
+                        <a href="">Weitao Du<sup>4</sup></a>
+                    </li>
+                    <li>
+                        <a href="https://scholar.google.com/citations?user=bZUqlakAAAAJ&hl=en">Hongyu Guo<sup>3</sup></a>
+                    </li>
+                    <li>
+                        <a href="http://christianborgs.com/">Christian Borgs<sup>2&diams;</sup></a>
+                    </li>
+                    <li>
+                        <a href="http://jenniferchayes.com/">Jennifer Chayes<sup>2&diams;</sup></a>
+                    </li>
+                    <li>
+                        <a href="http://tensorlab.cms.caltech.edu/users/anima/">Anima Anandkumar<sup>1&diams;</sup></a>
+                    </li>
+                </ul>
+
+                <div class="col-md-8 text-left col-md-offset-2">
+                <ul class="list-inline">
+                    <li>
+                        <sup>1</sup>Caltech
+                    </li>
+                    <li>
+                        <sup>2</sup>UC Berkeley
+                    </li>
+                    <li>
+                        <sup>3</sup>National Research Council Canada
+                    </li>
+                    <li>
+                        <sup>4</sup>University of Chinese Academy of Sciences
+                    </li>
+                    <br>
+                    <li>
+                        <sup>&spades;</sup>Equal contribution
+                    </li>
+                    <li>
+                        <sup>&diams;</sup>Equal advising
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <ul class="nav nav-pills nav-justified">
+                        <li>
+                            <a href="/projects/NeurIPS23_ChatDrug/draft.pdf">
+                            <image src="/projects/NeurIPS23_ChatDrug/paper.png" height="60px">
+                                <h4><strong>Paper</strong></h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/chao1224/ChatDrug">
+                            <image src="/assets/img/github.png" height="60px">
+                                <h4><strong>Code</strong></h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        <br>
+        <br>
+
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <center>
+                <video width="100%" controls muted loop autoplay>
+                    <source src="/projects/NeurIPS23_ChatDrug/final.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    ChatDrug Pipeline
+                </h3>
+                <center><image src="/projects/NeurIPS23_ChatDrug/pipeline.png" width="100%" height="auto"></image></center>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Small Molecule Editing
+                </h3>
+                <center><image src="/projects/NeurIPS23_ChatDrug/small_molecule.png" width="100%" height="auto"></image></center>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Peptide Editing
+                </h3>
+                <center><image src="/projects/NeurIPS23_ChatDrug/peptide.png" width="100%" height="auto"></image></center>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Protein Editing
+                </h3>
+                <center><image src="/projects/NeurIPS23_ChatDrug/protein.png" width="100%" height="auto"></image></center>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        
+            
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <div class="form-group col-md-12 col-md-offset-0">
+                    <textarea id="bibtex" class="form-control" rows="7" readonly>
+@article{liu2024nucleusdiff,
+    title={Manifold-Constrained Nucleus-Level Denoising Diffusion Model for Structure-Based Drug Design},
+    author={Shengchao Liu, Divin Yan, Weitao Du, Hongyu Guo, Christian Borgs, Jennifer Chayes, Anima Anandkumar},
+    journal={arXiv preprint },
+    year={2024}
+}
+</textarea>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
